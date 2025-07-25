@@ -2,7 +2,7 @@
 
 Explored the state of the art and real time modesl that delivers the effective and realistic animated videos with target image, driving video along with the users reference audio!
 
-<img src="images/pipeline.jpg" alt="Pipeline Architecture" width="500"/>
+<img src="images/pipeline.jpg" alt="Pipeline Architecture" width="800"/>
 
 ### Inputs
 * Target Image – The reference image for facial reenactment
