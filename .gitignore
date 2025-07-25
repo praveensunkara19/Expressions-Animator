@@ -36,14 +36,12 @@ Thumbs.db
 # VSCode settings
 .vscode/
 
-
-
 # Environment files
 *.env
 
 # Project-specific folders to ignore
 processed/
-# outputs/
+# outputs/   # <-- commented out so outputs is tracked
 outputs_v2/
 checkpoints/
 checkpoints_v2/
