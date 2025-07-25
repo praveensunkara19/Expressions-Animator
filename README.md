@@ -45,7 +45,7 @@ Note: Requires CUDA (NVidia GPU) for optimal performance. The current implementa
 
 ---
 ```
-### 📁 Project Structure
+📁 Project Structure
 .
 ├── LivePortrait/
 │   ├── LivePortrait.ipynb
@@ -64,6 +64,13 @@ Note: Requires CUDA (NVidia GPU) for optimal performance. The current implementa
 │   └── wisper.ipynb
 └── README.md
 ```
+---
+### Challenges
+* wishper only capable of python version < 3.11. so, for me it worked on pythton3.10.11
+* Face Reenactment models such as Liveportrait,fsrt,FOMM necessarily require the GPU (compliled on colab)
+* tried to build the FastAPI in colab but it fails due to dependency and environment set ups that varies for different frames(mediapipe, numpy<2.x), but for the torch and torchaudio dependencies it should be numpy>1.x.
+* we need a good system that compatible to infere the these combined outputs.
+* I have successfully complied and got the resutls for the given tasks.
 ---
 ### ⚠️ Notes
 Ensure CUDA and cuDNN are configured properly for GPU tasks.
