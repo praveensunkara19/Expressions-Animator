@@ -1,0 +1,53 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.openvoice_env/
+.openvoice_venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model checkpoints and large files
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.zip
+
+# Colab temporary files
+*.ipynb_kernel_*
+
+# VSCode settings
+.vscode/
+
+
+
+# Environment files
+*.env
+
+# Project-specific folders to ignore
+processed/
+outputs/
+outputs_v2/
+checkpoints/
+checkpoints_v2/
+trash/
+examples*/
+build/
+*.egg-info/

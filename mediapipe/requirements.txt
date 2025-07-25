@@ -1,0 +1,11 @@
+# mediapipe packages
+
+numpy==1.26.4
+opencv-python
+mediapipe==0.10.21
+ffpyplayer
+torch
+
+# wishper packages
+openai-whisper
+
