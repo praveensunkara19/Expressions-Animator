@@ -43,7 +43,7 @@ Thumbs.db
 
 # Project-specific folders to ignore
 processed/
-outputs/
+# outputs/
 outputs_v2/
 checkpoints/
 checkpoints_v2/
